@@ -1,5 +1,5 @@
 import React from 'react'
-import LOCALSTORAGE_KEYS from '../constants/localstorage'
+import LOCALSTORAGE_KEYS from '../constants/localStorageKeys'
 import { Navigate, Outlet } from 'react-router'
 
 const AuthMiddleware = () => {
